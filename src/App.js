@@ -51,6 +51,7 @@ class App extends React.Component {
             desc: 'lorem ipsum set',
             img: '5.jpg',
             category: 'pants'
+<<<<<<< HEAD
           },
           {
             id:6,
@@ -59,6 +60,8 @@ class App extends React.Component {
             desc: 'lorem ipsum set',
             img: '6.jpg',
             category: 'skirt'
+=======
+>>>>>>> 26029024094df0fb9b0e9355ebde44c9523655e2
           }
         ],
         cardItem: false,
