@@ -19,6 +19,10 @@ export class Categories extends Component {
                 {
                     key: 'pants',
                     name: 'Брюки'
+                },
+                {
+                    key: 'skirt',
+                    name: 'Юбки'
                 }
             ]
         }

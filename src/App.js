@@ -51,6 +51,14 @@ class App extends React.Component {
             desc: 'lorem ipsum set',
             img: '5.jpg',
             category: 'pants'
+          },
+          {
+            id:6,
+            title: 'test product',
+            price: 1000,
+            desc: 'lorem ipsum set',
+            img: '6.jpg',
+            category: 'skirt'
           }
         ],
         cardItem: false,
