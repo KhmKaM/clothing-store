@@ -27,9 +27,9 @@ export default function Header(props) {
             <div>
                 <span className='logo'>Clothing Store</span>
                 <ul className='nav'>
-                    <li>Про нас</li>
-                    <li>Контакты</li>
-                    <li>Кабинет</li>
+                    <li><a href="/about">Про нас</a></li>
+                    <li><a href="/contacts">Контакты</a></li>
+                    <li><a href="#">Кабинет</a></li>
                 </ul>
                 <FaShoppingCart onClick={() => setCartOpen(cartOpen = !cartOpen)} className={`shop-cart-button ${cartOpen && 'active'}`}/>
 

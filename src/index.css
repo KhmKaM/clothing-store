@@ -43,6 +43,11 @@ header ul.nav li:hover {
     opacity: 0.5;
 }
 
+a {
+    text-decoration: none;
+    color: #000;
+}
+
 header .shop-cart-button {
     float: right;
     cursor: pointer;
@@ -210,7 +215,7 @@ main .item {
 main .item img,
 .full-item img {
     width: 100%;
-    height: 80%;
+    height: 65%;
     border-radius: 10px 10px 0 0;
     transition: transform 500ms ease;
     cursor: pointer;
@@ -252,6 +257,67 @@ main .add-to-cart,
 main .add-to-cart:hover,
 .full-item .add-to-cart:hover  {
     transform: scale(1.25) translateY(-5px);
+}
+
+/* pages contacts */
+.about {
+    padding-bottom: 10px;
+}
+
+p {
+    margin: 0;
+    text-align:justify;
+    text-indent: 3ch;
+  }
+p.pilcrow {
+     text-indent: 0;
+     display: inline;
+  }
+p.pilcrow + p.pilcrow::before {
+    content: " ¶ ";
+  }
+.brand {
+    font-size: 1.1em;
+    font-weight: 700;
+    margin-left: 0px;
+}
+.contacts {
+    grid-row: 1 / span 4;
+    grid-column-start: 4;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.contacts p {
+    font-size: 1.1em;
+    font-weight: 700;
+    padding-top: 10px;
+}
+.mobile {
+    font-size: 1em;
+    padding-bottom: 10px;
+}
+.mail {
+    font-size: 1em;
+    padding-bottom: 10px;
+}
+.line-hr {
+    height: 1px;
+    margin: 20px 0 40px 0;
+    background: #cccccc;
+}
+.contact_city {
+    color: #eb4068;
+    margin: 0 0 20px 0;
+    line-height: 17px;
+    height: 17px;
+    font-weight: 600;
+    padding-top: 10px;
+}
+
+b {
+    padding-top: 10px;
+    margin-left: -31px;
 }
 
 footer {
