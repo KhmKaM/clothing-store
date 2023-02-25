@@ -4,7 +4,7 @@ import Form from 'react-bootstrap/Form';
 import Container from 'react-bootstrap/Container';
 
 function FormProfile() {
-  return (<Container style={{ width: '20rem' }}>
+  return (<Container style={{ width: '25rem' }}>
     <Form>
       <Form.Group className="mb-3" controlId="formBasicEmail">
         <Form.Label>Адрес пользователя</Form.Label>
