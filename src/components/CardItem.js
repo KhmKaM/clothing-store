@@ -8,7 +8,7 @@ export class CardItem extends Component {
                 <img src={"./img/" + this.props.item.img} onClick={() => this.props.onCardItem(this.props.item)}/>
                 <h2>{this.props.item.title}</h2>
                 <b>{this.props.item.price} ₽</b>
-                <p>{this.props.item.desc}</p>
+                <p className='description'>{this.props.item.desc}</p>
                 <div className='add-to-cart' onClick={() => this.props.onAdd(this.props.item)}>+</div>
             </div>
         </div>

@@ -47,6 +47,7 @@ a {
     text-decoration: none;
     color: #000;
 }
+a:hover {text-decoration: none; color: #000;}
 
 header .shop-cart-button {
     float: right;
@@ -259,6 +260,11 @@ main .add-to-cart:hover,
     transform: scale(1.25) translateY(-5px);
 }
 
+.description {
+    max-width: 345px;
+    overflow-wrap: break-word;
+    text-align: left;
+}
 /* pages contacts */
 .about {
     padding-bottom: 10px;
@@ -316,11 +322,41 @@ p.pilcrow + p.pilcrow::before {
 }
 
 b {
-    padding-top: 10px;
-    margin-left: -31px;
+    margin-left: -28px;
 }
 
 footer {
     text-align: center;
     margin-top: 100px;
+}
+.image-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background: url('./img/clothing-store.jpg') no-repeat;
+    width: 50%;
+    height: 400px;
+    padding: 0px;
+    background-size: cover;
+    background-position: center;
+    background-color: aliceblue;
+}
+
+.btn {
+    width: 150px;
+    background-color: #814bc6;
+    border: 0.5px solid #f6f5f8;
+    /* border-radius: 5%; */
+    color: white;
+    padding: 15px 22px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+.btn-wrapper {
+  margin: 50px 10px;
+}
+.section-wrapper {
+  display: flex;
 }

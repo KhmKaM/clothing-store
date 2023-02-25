@@ -3,8 +3,8 @@ import { Link } from "react-router-dom";
 import { FaMobileAlt, FaEnvelopeOpenText, FaWhatsapp, FaMapMarkerAlt } from "react-icons/fa";
 
 const Contacts = () => {
-    return (<>
-        <button><Link to="/" className="btn">Вернуться на главную</Link></button>
+    return (<div className="section-wrapper">
+        <div className="btn-wrapper"><button><Link to="/" className="btn">Вернуться на главную</Link></button></div>
         <div className="wrapper">
         <h1>Контакты</h1>
             <div className="contacts">
@@ -25,8 +25,6 @@ const Contacts = () => {
                 <p>
                     <b>МАГАЗИН</b>
                     &nbsp;(ст. метро "Красные ворота")
-                </p>
-                <p>
                     <br/>Садовая-Спасская ул., 21/1
                     <br/>Пн-пт: 09.00 – 21.00
                     <br/>Сб-вс: 10.00 – 21.00
@@ -39,15 +37,13 @@ const Contacts = () => {
                 <p>
                     <b>ТЦ Республика</b>
                     &nbsp;(ст. метро "Площадь Габдуллы Тукая")
-                </p>
-                <p>
-                    <br/>Площадь Габдуллы Тукая
+                    <br/>Петербургская ул., 1
                     <br/>Пн-пт: 09.00 – 21.00
                     <br/>Сб-вс: 10.00 – 21.00
                 </p>
             </div>
     </div>
-    </>
+    </div>
     )
 };
 
